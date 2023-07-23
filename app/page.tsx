@@ -5,7 +5,7 @@ import { Card, Text, Subtitle, Divider } from "@tremor/react"
 
 export default function Home() {
   return (
-    <div className=" min-h-screen bg-gradient-to-br from-slate-500 to-black p-10 flex flex-col justify-center items-center ">
+    <div className=" min-h-screen bg-gradient-to-br from-cyan-500 to-blue-400 p-10 flex flex-col justify-center items-center ">
      <Card className=" max-w-6xl mx-auto bg-slate-200 rounded-lg">
         <Text className=" text-center text-6xl font-bold mb-10 ">
           Weather AI
@@ -17,7 +17,7 @@ export default function Home() {
 
         <Divider className=" my-10" />
 
-        <Card className=" bg-gradient-to-br from-slate-500 to-black">
+        <Card className=" bg-gradient-to-br from-cyan-500 to-blue-400">
           <CityPicker />
         </Card>
      </Card>
