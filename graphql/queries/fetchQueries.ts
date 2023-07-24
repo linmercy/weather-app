@@ -3,7 +3,7 @@ import { gql, useQuery } from '@apollo/client';
 const fetchQueries = gql`
   query MyQuery(
     $current_weather: String
-    $daily: String
+    $daily: String 
     $hourly: String
     $latitude: String!
     $longitude: String!
