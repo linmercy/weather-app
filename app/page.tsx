@@ -11,13 +11,13 @@ export default function Home() {
           Weather AI
         </Text>
         
-        <Subtitle className=" text-xl text-center">
+        <Subtitle className=" text-xl text-center text-gray-400">
           Powered by OpenAI, Next.js 13.3, TailwindCSS, Tremor 2.0 +More!
         </Subtitle>
 
-        <Divider className=" my-10" />
+        <Divider className=" my-5" color="black" />
 
-        <Card className=" bg-gradient-to-br from-cyan-500 to-blue-400">
+        <Card className=" bg-gradient-to-br from-cyan-500 to-blue-400 rounded-lg">
           <CityPicker />
         </Card>
      </Card>
